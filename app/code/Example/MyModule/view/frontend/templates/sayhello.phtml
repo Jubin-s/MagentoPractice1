@@ -1,0 +1,34 @@
+<?php
+
+
+
+$InfoBlock = $block->storeData();
+
+
+?>
+<table>
+    <tr>
+        <th><?php echo __('Name');?></th>
+        <th><?php echo __('Mobile ');?></th>
+        <th><?php echo __('Hours');?></th>
+        <th><?php echo __('Country');?></th>
+        <th><?php echo __('Region');?></th>
+        <th><?php echo __('Postcode');?></th>
+        <th><?php echo __('City');?></th>
+        <th><?php echo __('Address');?></th>
+        <th><?php echo __('Vat');?></th>
+    </tr>
+    <tr>
+        <td><?php echo $InfoBlock->getName(); ?></td>
+        <td><?php echo $InfoBlock->getPhone(); ?></td>
+        <td><?php echo $InfoBlock->getHours(); ?></td>
+        <td><?php echo $InfoBlock->getCountry(); ?></td>
+        <td><?php echo $InfoBlock->getRegion(); ?></td>
+        <td><?php echo $InfoBlock->getPostcode(); ?></td>
+        <td><?php echo $InfoBlock->getCity(); ?></td>
+        <td><?php echo $InfoBlock->getAddress(); ?></td>
+        <td><?php echo $InfoBlock->getVat(); ?></td>
+
+
+    </tr>
+</table>
