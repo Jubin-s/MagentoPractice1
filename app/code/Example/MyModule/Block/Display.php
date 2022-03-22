@@ -11,10 +11,10 @@ class Display extends \Magento\Framework\View\Element\Template
 		parent::__construct($context);
 	}
 
-	public function sayHello()
+	/*public function sayHello()
 	{
 		return __('Hello World');
-	}
+	}*/
 	public function storeData()
     {
         return $this->helper;
