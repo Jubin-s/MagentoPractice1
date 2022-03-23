@@ -9,5 +9,6 @@
             </arguments>
         </block>
       </referenceBlock>
+      <referenceBlock name="header.panel.wrapper" remove="true" />
     </body>
 </page>
